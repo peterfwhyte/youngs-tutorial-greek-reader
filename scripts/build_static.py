@@ -64,7 +64,7 @@ for WORK in WORK_LIST:
     </html>
     """
 
-    with open(SRC) as f:
+    with open(SRC, encoding="utf-8") as f:
         with open(DEST, "w") as g:
             prev_section = None
             prev_chapter = None
